@@ -1,4 +1,4 @@
-package lesson16;
+package lesson16_2;
 
 public enum DaysOfWeekEnum {
     MONDAY("Понедельник"),

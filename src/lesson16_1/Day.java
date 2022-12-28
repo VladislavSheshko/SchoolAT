@@ -1,4 +1,4 @@
-package lesson16;
+package lesson16_1;
 
 public class Day {
     int number;
