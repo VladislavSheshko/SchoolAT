@@ -20,6 +20,7 @@ public class Week {
         this.day6 = day6;
         this.day7 = day7;
     }
+
     @Override
     public String toString() {
         return  "Неделя: " + number + "\n" + day1 + "\n" + day2 + "\n" + day3 + "\n" + day4 + "\n" + day5 + "\n" + day6 + "\n" + day7;
