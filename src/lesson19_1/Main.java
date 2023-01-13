@@ -12,17 +12,10 @@ public class Main {
 
         for (Animal an : animals) {
             System.out.println(an.toString());
-        }
-        for (Animal an : animals) {
             an.makeSound();
-        }
-        horse.eat(100);
-        for (Animal an : animals) {
+            an.eat(10);
             vet.treatAnimal(an);
         }
         cat.sleep();
-
     }
-
-
 }

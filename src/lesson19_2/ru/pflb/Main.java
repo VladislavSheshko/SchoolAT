@@ -10,16 +10,16 @@ public class Main {
         Driver driverTwo = new Driver(37, "Евгений", 12, "ЕН77-55");
 
         Engine engineOne = new Engine(700, "Maz-engine");
-        Engine engineTwo = new Engine(900, "BMW1");
+        Engine engineTwo = new Engine(900, "BMW");
 
         Lorry lorry = new Lorry("Maz", VehicleClass.SPORTS_CAR, 5000, driverOne, engineOne, 2000);
-        System.out.println(lorry.toString());
+        System.out.println(lorry);
 
         SportCar sportCar = new SportCar("Porsche 911", VehicleClass.MEDIUM, 1500, driverTwo, engineTwo, 300);
-        System.out.println(sportCar.toString());
+        System.out.println(sportCar);
 
         Car car = new Car("Zaporogezch", VehicleClass.MINI, 900, driverOne, new Engine(50, "ZAZ"));
-        System.out.println(car.toString());
+        System.out.println(car);
     }
 }
 
