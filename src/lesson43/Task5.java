@@ -17,11 +17,11 @@ public class Task5 {
         int b = Integer.valueOf(args[1]);
         int c = Integer.valueOf(args[2]);
         int d = Integer.valueOf(args[3]);
-        if (a + b >= 0){
-            if(a + b <= c + d){
+        if (a >= 0 && b >= 0 && c >= 0 && d >= 0){
+            if(c - a >= 0 && d - b >= 0 ){
                 int e = (100*c+d-100*a-b) / 100;
                 int f = (100*c+d-100*a-b) % 100;
-                System.out.println(e + "." + f);
+                System.out.println(e + " рублей" + f + " копеек");
             }else {
                 System.out.println("Недостаточно денег для оплаты товара");
             }
